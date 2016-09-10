@@ -59,10 +59,6 @@ body {  /* spacing to accomidate for nav bar*/
 #contact-img{
     height:250px;
 }
- .project.thumbnail{
-    height:3em;
-    border: medium dashed green;
- }
 
 hr { 
   height: 30px; 
