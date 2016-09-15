@@ -1,176 +1,157 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Jess Alexander | Developer</title>
-
-	<!-- ====  Libraries ==== -->
-
-	<!-- Bootstrap -->
-	<link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <title>Jess Alexander | Developer</title>
+    <!-- ====  Libraries ==== -->
+    <!-- Bootstrap -->
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-	<!-- FontAwesome -->
-	<link href="css/lib/font-awesome.min.css" rel="stylesheet">
-	<script src="https://use.fontawesome.com/f1a4de6791.js"></script>
-
-	<!-- Custom Stylesheet & Font -->
-	<link href="css/main.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link href="css/lib/font-awesome.min.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/f1a4de6791.js"></script>
+    <!-- Custom Stylesheet & Font -->
+    <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
-	
 </head>
+
 <body>
-<!-- =============     ISSUES     ================ -->
-<!-- = make portfolio images smaller when screen is sm -->
-<!-- = when navbar is minimized, and a link is clicked, the navbar should then toggle to collapsed -->
-<!-- = navbar should display as inline when opened from collapsed view --> 
-<!-- =Look into inserting a frame rather than an image -->
-
-<!-- ============     ADD-INS     ================ -->
-<!-- = pop-up modal to display games category (magic 8 ball, RGB, Tic-tac-Toe) -->
-<!-- = pop-up modal to display node-js screenshots -->
-<!-- = pop-up modal to display todo-list -->
-<!-- = Use Javascript to make page scroll instead of jump to selected link on navbar -->
-
-
+    <!-- =============     ISSUES     ================ -->
+    <!-- = make portfolio images smaller when screen is sm -->
+    <!-- = when navbar is minimized, and a link is clicked, the navbar should then toggle to collapsed -->
+    <!-- = navbar should display as inline when opened from collapsed view -->
+    <!-- =Look into inserting a frame rather than an image -->
+    <!-- ============     ADD-INS     ================ -->
+    <!-- = pop-up modal to display games category (magic 8 ball, RGB, Tic-tac-Toe) -->
+    <!-- = pop-up modal to display node-js screenshots -->
+    <!-- = pop-up modal to display todo-list -->
+    <!-- = Use Javascript to make page scroll instead of jump to selected link on navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-          	<i class="fa fa-pagelines fa-2x navbar-brand" ></i>
-          </a>
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-pagelines fa-2x navbar-brand"></i>
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          
-          <ul class="nav navbar-nav navbar-right">
-               <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+        <!-- /.container-fluid -->
     </nav>
-
-
-	<header>
-		<div class = "">
-	        <h1>Jess Alexander</h1>
-	        <h2 class = "text-center"><span>Hi,</span> I'm a developer who loves clean &amp; elegant code.</h2>
-	    </div>  
+    <header>
+        <div class="">
+            <h1>Jess Alexander</h1>
+            <h2 class="text-center"><span>Hi,</span> I'm a developer who loves clean &amp; elegant code.</h2>
+        </div>
     </header>
-    <div class = "container">
+    <div class="container">
         <main>
-    		<section id="about" class = "row">
+            <section id="about" class="row">
                 <h2>A little bit about me</h2>
-                <div class="col-md-6 col-sm-12 text-justify"> 
-                    <p>I started my journey with tech at a young age by taking a computer science class in high school. I had only wanted to learn more about computers, but to my surprise the class was actually a programming class! 
-                    I fell in love with coding and found it came to me quite easily. I dove in head first by finishing classes at a local junior college and landing a job working on a mainframe before my 20th birthday.</p>
+                <div class="col-md-6 col-sm-12 text-justify">
+                    <p>I started my journey with tech at a young age by taking a computer science class in high school. I had only wanted to learn more about computers, but to my surprise the class was actually a programming class! I fell in love with coding and found it came to me quite easily. I dove in head first by finishing classes at a local junior college and landing a job working on a mainframe before my 20th birthday.</p>
                     <p>In a move I will never regret, I quit my job and chose to follow my husband, who is enlisted with the Air Force. Needless to say, my five year career plan did not work out!</p>
                 </div>
                 <div class="col-md-6 col-sm-12 text-justify">
-                    <p>We lived in Tokyo, Japan for three wonderful years before moving to our favorite oceanside oasis, Rota, Spain. While overseas, we took time to travel and to grow our family. 
-                    Seven years, nine countries, and three children later, here we are! While these past few years have been simply amazing, I am eager to get back into coding once my husband ends his military career in spring 2017.</p> 
+                    <p>We lived in Tokyo, Japan for three wonderful years before moving to our favorite oceanside oasis, Rota, Spain. While overseas, we took time to travel and to grow our family. Seven years, nine countries, and three children later, here we are! While these past few years have been simply amazing, I am eager to get back into coding once my husband ends his military career in spring 2017.</p>
                     <p>I have been studying and practicing full-stack web development ever since we decided to move back home. I cannot wait to be able to put my new skills to good use for you!</p>
                 </div>
             </section>
-
-            <section id="portfolio" class = "row">
-            	<h2>Portfolio </h2>
-    			<div class="col-lg-4 col-sm-6 ">
-    				<div class="thumbnail project">					
-    					<a href="http://rgb-color-game.pubstorm.site" target="blank">
-    						<img src="img/rgb-color-game.png">
-    					</a>
-    				</div>
-    			</div>
-    			<div class="col-lg-4 col-sm-6 ">
-    				<div class="thumbnail project">
-    					<a href="http://todo-app.pubstorm.site" target="blank">
-    						<img src="img/todo-app.png">
-    					</a>
-    				</div>
-    			</div>
-
-    		  <div class="col-lg-4 col-sm-6 ">
+            <section id="portfolio" class="row">
+                <h2>Portfolio </h2>
+                <div class="col-lg-4 col-sm-6 ">
                     <div class="thumbnail project">
-                        <a href="http://magic8ball.pubstorm.site" target="blank">
+                        <a href="http://rgb-color-game.pubstorm.site" target="blank">
+                            <img src="img/rgb-color-game.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="thumbnail project">
+                        <a href="http://todo-app.pubstorm.site" target="blank">
+                            <img src="img/todo-app.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="thumbnail project">
+                        <a href="http://codepen.io/JessMarie/pen/QKyOGA" target="blank">
                             <img src="https://source.unsplash.com/TYVVKXO7-S0/1600x900/">
                         </a>
                     </div>
                 </div>
-
             </section>
-
-         </main>
+        </main>
         <hr>
-         <section id="contact" class = "row">
-                    <div class="col-sm-6 col-xs-12 ">
-                        <div class = "thumbnail">
-                            <img id="contact-img" src="img/headshot2.jpg" alt="Jess Alexander headshot"/>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-xs-12 text-center" id="connect">
-                            <h2>Like what you see?</h2>
-                            <h3 id="email-header">I'd love to connect with you!</h3>
-                            <a href="mailto:alexanderjessmarie@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i> AlexanderJessMarie @ gmail.com</a>
-                            <h3 id="socialmedia-header">Or, find me online</h3>
-                            <div id="myToolTip"></div>
-                            <ul class="list-unstyled">
-                                <li>
-                                	<a class="hoverable" title="LinkedIn" href="https://www.linkedin.com/pub/jess-alexander/116/b63/b7b" target="_blank">
-                                		<i class="fa fa-linkedin fa-2x" ></i>
-                            		</a>
-                                </li>
-                                <li>
-                                	<a class="hoverable" title="GitHub" href="https://github.com/jess-alexander" target="_blank">
-                                		<i class="fa fa-github fa-2x" ></i>
-                            		</a>
-                                </li>
-                                <li>
-                                    <a class="hoverable" title="Twitter" href="https://twitter.com/JessMarie1228" target="_blank">
-                                        <i class="fa fa-twitter fa-2x" ></i>
-                                    </a>
-                                </li> 
-                                <li>
-                                	<a class="hoverable" title="FreeCodeCamp" href="https://www.freecodecamp.com/en/jess-alexander" target="_blank">
-                                		<i class="fa fa-code fa-2x" ></i>
-                            		</a>
-                                </li>
-                            </ul>
-
-                    </div>
-    
-                
-            </section>
-            <footer>
-                <hr>
-                <div class = "text-center">
-                    <p >Many thanks to <a href="https://unsplash.com/@flenjoore" target="_blank">Olu Eletu</a> for sharing your images!</p>
-                    <p>Coded with Care by Jess Alexander, 2016</p>
+        <section id="contact" class="row">
+            <div class="col-sm-6 col-xs-12 ">
+                <div class="thumbnail">
+                    <img id="contact-img" src="img/headshot2.jpg" alt="Jess Alexander headshot" />
                 </div>
-            </footer>
+            </div>
+            <div class="col-sm-6 col-xs-12 text-center" id="connect">
+                <h2>Like what you see?</h2>
+                <h3 id="email-header">I'd love to connect with you!</h3>
+                <a href="mailto:alexanderjessmarie@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i> AlexanderJessMarie @ gmail.com</a>
+                <h3 id="socialmedia-header">Or, find me online</h3>
+                <div id="myToolTip"></div>
+                <ul class="list-unstyled">
+                    <li>
+                        <a class="hoverable" title="LinkedIn" href="https://www.linkedin.com/pub/jess-alexander/116/b63/b7b" target="_blank">
+                            <i class="fa fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hoverable" title="GitHub" href="https://github.com/jess-alexander" target="_blank">
+                            <i class="fa fa-github fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hoverable" title="Twitter" href="https://twitter.com/JessMarie1228" target="_blank">
+                            <i class="fa fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="hoverable" title="FreeCodeCamp" href="https://www.freecodecamp.com/en/jess-alexander" target="_blank">
+                            <i class="fa fa-code fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <hr>
+            <div class="text-center">
+                <p>Many thanks to <a href="https://unsplash.com/@flenjoore" target="_blank">Olu Eletu</a> for sharing your images!</p>
+                <p>Coded with Care by Jess Alexander, 2016</p>
+            </div>
+        </footer>
     </div>
-
     <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script src="js/lib/bootstrap.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
-    
 </body>
+
 </html>
