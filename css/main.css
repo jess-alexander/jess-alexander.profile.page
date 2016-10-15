@@ -64,7 +64,12 @@
      border: 0 none;
      box-shadow: none;
  }
- 
+ .project{
+     /*position: absolute;*/
+ }
+ .project img{
+     height: 80%;
+ }
  #contact-img {
      max-height: 250px;
  }
